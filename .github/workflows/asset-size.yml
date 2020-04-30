@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - uses: chrysanthos/simple-asset-size-reporter@1.0.0
+      - uses: chrysanthos/simple-asset-size-reporter@1.0.1
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           files: '["dist/*.js"]'
